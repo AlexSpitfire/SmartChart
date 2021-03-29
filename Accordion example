@@ -1,0 +1,17 @@
+<div class="module module__cta" data-bkgnd="tan">
+<div class="module module__accordion --border">
+<div class="module__cta-icon icon--strategy">&nbsp;</div>
+
+      <h4 class="module__accordion-header">
+       <button id="module__accordion-button-UNIQUEID" class="module__accordion-button" aria-controls="module__accordion-panel-UNIQUEID" aria-expanded="false">Accordion example<em>&nbsp;</em></button>
+      </h4>
+      <div class="entry-content --sm">
+       <p>This is content not affected by the accordion buttons targeted "--hidden" panel. Tincidunt tincidunt at vestibulum fermentum erat egestas justo, orci. Nunc vulputate sollicitudin sed pellentesque dolor lorem neque. <a href="#">Link example</a></p>
+      </div>
+
+      <div id="module__accordion-panel-UNIQUEID" class="module__accordion-panel entry-content --sm --hidden" role="region" aria-labelledby="module__accordion-button-UNIQUEID" aria-hidden="true" tabindex="-1">
+       <p><strong>Bold text example</strong> aliquet maecenas eget vel egestas dictum. Tincidunt tincidunt at vestibulum fermentum erat egestas justo, orci. Nunc vulputate sollicitudin sed <u>example underline</u> lorem neque. Ultricies lacinia varius imperdiet non ac semper vestibulum. Ac nunc molestie nec sit tincidunt duis. Auctor velit odio tempus quis ac diam enim in. <a href="#">Link example</a> sit non vulputate placerat</p>
+       <p>this is more text</p>
+      </div>
+     </div>
+  </div>
